@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.getElementById("search").addEventListener("click", async () => {
     const city = document.getElementById("city-input").value.trim().toUpperCase();
     const mapElement = document.getElementById("map");
@@ -53,7 +52,7 @@ document.getElementById("search").addEventListener("click", async () => {
 
     mapElement.innerHTML = htmlContent;
 });
-=======
+
 function showHistogram() {
     document.getElementById("chart-container").innerHTML = "<h3>Exibindo Histograma</h3><canvas id='histogramChart'></canvas>";
     
@@ -68,4 +67,3 @@ function showOther() {
     document.getElementById("chart-container").innerHTML = "<h3>Exibindo Outro Gráfico</h3><canvas id='otherChart'></canvas>";
     
 }
->>>>>>> 0ed4c789a32f50cc3548a72e92f7e782a111bcad
