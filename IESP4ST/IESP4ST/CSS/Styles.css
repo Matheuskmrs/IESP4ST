@@ -73,15 +73,13 @@ body {
 .form-input-container input {
     padding: 10px;
     font-size: 1em;
-<<<<<<< HEAD
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-right: 10px;
     width: 300px;
-=======
     border-radius: 5px;
     width: 29%;
->>>>>>> 0ed4c789a32f50cc3548a72e92f7e782a111bcad
+
 }
 
 .form-input-container button {
@@ -91,50 +89,16 @@ body {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-<<<<<<< HEAD
     border-radius: 4px;
-=======
     margin-left: 10px;
     border-radius: 10px;
->>>>>>> 0ed4c789a32f50cc3548a72e92f7e782a111bcad
+
 }
 
 .form-input-container button:hover {
     background-color: #45a049;
 }
 
-/* Seção de relatórios */
-.report-section {
-    text-align: center;
-    padding: 20px;
-    background-color: #dde1e7;
-}
-
-.report-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
-}
-
-.report-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.report-btn {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #5ba9c9;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    border: none;
-    transition: background-color 0.3s;
-}
-
-.report-btn:hover {
-    background-color: #4a8ba0;
-}
 
 /* Estilos para a seção de resultados */
 #map {
@@ -181,10 +145,8 @@ body {
     margin: 20px auto;
     width: 80%;
     background-color: #ccc;
-<<<<<<< HEAD
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-=======
     padding: 20px;
     border-radius: 8px;
 }
@@ -253,5 +215,5 @@ body {
 .footer-logo img {
     max-width: 10%;
     opacity: 0.1; 
->>>>>>> 0ed4c789a32f50cc3548a72e92f7e782a111bcad
+
 }
